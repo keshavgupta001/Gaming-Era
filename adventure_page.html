@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Era</title>
+    <!--icon import-->
+    <link rel = "icon" href="icon\title_icon.png" type = "image/x-icon"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- font-family: 'Langar', cursive; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+
+
+
+        body {
+            background-color: black;
+        }
+
+        .home_page_gap {
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-bottom: 8%;
+            padding-top: 0%;
+
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .li {
+            float: left;
+        }
+
+        .navbar_a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: darkblue;
+        }
+
+        .game_title_heading {
+            font-family: 'Langar', cursive;
+        }
+
+        .small_element {
+            border: 2px solid black;
+            margin: 3%;
+            padding: 1%;
+        }
+
+        .block {
+            position: relative;
+            width: auto;
+            height: auto;
+            background: #000;
+        }
+
+        .block:before,
+        .block:after {
+            content: ' ';
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            width: calc(100% + 6px);
+            height: calc(100% + 6px);
+            background: linear-gradient(45deg, red, yellow, green, blue, yellow, purple);
+            z-index: -1;
+            background-size: 400%;
+            animation: borderbg 40s linear infinite;
+        }
+
+        @keyframes borderbg {
+            0% {
+                background-position: 0 0;
+
+            }
+
+            50% {
+                background-position: 400% 0;
+            }
+
+            100% {
+                background-position: 0 0;
+            }
+        }
+
+        .block:after {
+            filter: blur(80px);
+        }
+
+        .page_layout {
+            margin: 0px;
+            padding: 2%;
+            background-color: white;
+            border: 1px solid white;
+        }
+
+        .small_element {
+            margin: 0;
+            padding: 1%;
+            border: 2px solid black;
+        }
+        .small_element_border{
+            padding: 1px;
+            margin: 0;
+            border: 1px dotted black;
+        }
+        .small_element_border:hover{
+            cursor: pointer;
+        }
+        .small_element_element{
+            padding: 3px;
+            margin: 0px;
+            
+        }
+        .title{
+            font-size: 30px;
+            font-family: 'Hammersmith One', sans-serif;
+            margin: 0px;
+            padding:0px;
+        }
+        .small_element_detail{
+            margin: 0px;
+            padding: 0px;
+        }
+        .small_img{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .img{
+            width: 40%;
+            height: auto;
+            margin: 0px;
+            padding: 0px;
+        }
+        .small_detail{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home_page_gap bb">
+        <img src="logo/logo.png" alt="error to loding the logo!!!!" style=" display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 40%;
+       padding: 0px;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       ">
+        <div class="block">
+            <div class="page_layout_navbar">
+                <ul class="ul">
+                    <li class="li"><a class="navbar_a" href="home_page.html">Home</a></li>
+                    <li class="li"><a class="navbar_a" href="action_page.html">Action</a></li>
+                    <li class="li"><a class="active navbar_a" href="adventure_page.html">Adventure</a></li>
+                    <li class="li"><a class="navbar_a" href="arcade_page.html">Arcade</a></li>
+                    <li class="li"><a class="navbar_a" href="fighting_page.html">Fighting</a></li>
+                    <li class="li"><a class="navbar_a" href="horror_page.html">Horror</a></li>
+                </ul>
+            </div>
+            <div class="page_layout">
+                <div class="small_element_border" onclick="location.href='zzShing.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">Shing Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\Shing-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>Shing Free Download PC Game setup in single direct link for Windows. It is an amazing action, adventure and indie game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_element_border" onclick="location.href='zzNight of the Dead.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">Night of the Dead Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\Night-of-the-Dead-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>Night of the Dead Free Download PC Game setup in single direct link for Windows. It is an amazing action, adventure and indie game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_element_border" onclick="location.href='zzAddle Earth.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">Addle Earth Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\Addle-Earth-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>Addle Earth Free Download PC Game setup in single direct link for Windows. It is an amazing action, adventure and indie game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_element_border" onclick="location.href='zzSpeechless.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">Speechless Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\Speechless-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>Speechless Free Download PC Game setup in single direct link for Windows. It is an amazing action, adventure and indie game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_element_border" onclick="location.href='zzSkitt.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">Skitt Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\Skitt-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>Skitt Free Download PC Game setup in single direct link for Windows. It is an amazing action, adventure and indie game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_element_border" onclick="location.href='zzCastleguard.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">CastleGuard Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\CastleGuard-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>CastleGuard Free Download PC Game setup in single direct link for Windows. It is an amazing action, adventure and indie game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_element_border" onclick="location.href='zzTell me why ch1.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">Tell Me Why Chapter 1 Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\Tell-Me-Why-Chapter-1-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>Tell Me Why Chapter 1 Free Download PC Game setup in single direct link for Windows. It is an amazing adventure game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_element_border" onclick="location.href='zzControl Ultimate Edition.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">Control Ultimate Edition Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\Control-Ultimate-Edition-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>Control Ultimate Edition Free Download PC Game setup in single direct link for Windows. It is an amazing action and adventure game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_element_border" onclick="location.href='zzDread X Collection 2.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">Dread X Collection 2 Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\Dread-X-Collection-2-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>Dread X Collection 2 Free Download PC Game setup in single direct link for Windows. It is an amazing action, adventure and indie game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_element_border" onclick="location.href='zzStremer life simulator.html'">
+                    <div class="small_element">
+                        <div class="small_element_element">
+                            <div class="small_element_title">
+                                <p><a class="title">Streamer Life Simulator Free Download</a></p>
+                            </div>
+                            <div class="small_element_detail">
+                                <div class="small_img">
+                                    <img src="img\Streamer-Life-Simulator-Free-Download.png" alt="error to load img!!!" class="img">
+                                </div>
+                                <div class="small_detail">
+                                    <div>
+                                        <p>Streamer Life Simulator Free Download PC Game setup in single direct link for Windows. It is an amazing action, adventure and indie game.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
